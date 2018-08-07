@@ -1,0 +1,34 @@
+name: ${project.artifactId}
+version: ${project.version}
+description: For administating Seiya Minecraft Server
+author: seiya0818
+website: seiya0818.jimdo.com/
+
+main: jp.seiya0818.SeiyaServerPlugin.Main
+database: false
+
+commands:
+  seiyaserver:
+    description: Basic command.
+  broadcast:
+    description: Broadcast message.
+  whoisps:
+    description: View player's information.
+  gm:
+    description: Changes a players game mode.
+  gmc:
+    description: Changes a players game mode to creative.
+  gma:
+    description: Changes a players game mode to adventure.
+  gms:
+    description: Changes a players game mode to survival.
+  gmsp:
+    description: Changes a players game mode to spectator.
+  gm0:
+    description: Changes a players game mode to survival.
+  gm1:
+    description: Changes a players game mode to creative.
+  gm2:
+    description: Changes a players game mode to adventure.
+  gm3:
+    description: Changes a players game mode to spectator.
